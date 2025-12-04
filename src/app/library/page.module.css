@@ -1,0 +1,108 @@
+.page {
+    .forms {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin: 5vh auto;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            align-items: center;
+
+            height: 80vh;
+            width: 50%;
+
+            margin: 0 2%;
+
+            border: 2px solid;
+            border-radius: .5rem;
+
+            h2 {
+                text-align: center;
+                font-size: larger;
+                font-size: 7vh;
+
+                margin: 5vh auto;
+            }
+
+            /* Barra horizontal dentro de cada form*/
+            hr {
+                border: 1px solid #b3b3b3;
+                margin: 3vh 4vh;
+                width: 85%;
+                height: 0;
+            }
+
+            .inputs {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                margin: auto auto 0 auto;
+
+                input {
+                    text-align: center;
+
+                    border: 1px rgb(30, 215, 96) solid;
+                    border-radius: 2rem;
+                    padding: 2vh 20vh;
+
+                    margin: 1.5vh 0;
+                }
+
+                input:focus {
+                    outline: none;
+                }
+
+            }
+
+            button {
+                text-align: center;
+
+                border: 1px rgb(30, 215, 96) solid;
+                border-radius: 2rem;
+                padding: 10px;
+
+                margin: 2vh 0;
+
+                margin-top: auto;
+
+                img {
+                    width: 2rem;
+
+                    aspect-ratio: 1/1;
+                    object-fit: cover;
+
+                    margin: 0 2%;
+                }
+            }
+        }
+
+        /* Barra vertical que separa os forms*/
+        hr {
+            border: 1px solid rgb(30, 215, 96);
+            margin: 2vh 4vh;
+            height: 610px;
+            width: 0;
+        }
+    }
+
+    /* Barra horizontal que separa os forms dos álbuns*/
+    hr {
+        border: 1px solid #b3b3b3;
+        margin: 5vh 6vh;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.spotify {
+    color: rgb(30, 215, 96);
+}

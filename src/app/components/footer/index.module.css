@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    justify-content: left;
+
+    height: 40vh;
+
+    margin-top: auto;
+
+    background-color: black;
+    color: white;
+
+    background: linear-gradient(to top,
+            rgb(0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.75) 75%,
+            rgba(0, 0, 0, 0) 100%);
+
+    p {
+        margin: auto;
+
+        letter-spacing: -0.04em;
+        font-weight: 700;
+        font-size: 100px;
+
+        color: rgb(30, 215, 96)
+    }
+
+    button {
+        background-color: black;
+
+        margin: auto 1vh 1vh 0;
+
+        padding: 3px;
+
+        border: 2px solid rgb(30, 215, 96);
+        border-radius: .7rem;
+
+        letter-spacing: -0.04em;
+        font-weight: 700;
+
+        color: rgb(30, 215, 96)
+    }
+
+    h2{
+        margin: 16vh 0 0 4vh;
+    }
+
+    ul {
+        margin: 20vh 0 2vh -5vh;
+    }
+}

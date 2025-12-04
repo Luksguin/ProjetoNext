@@ -1,0 +1,62 @@
+.edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: -4vh;
+        margin-left: -5vh;
+
+        h2 {
+            text-align: center;
+            font-size: larger;
+            font-size: 7vh;
+
+            margin: 0 auto;
+        }
+
+        hr {
+            border: 1px solid #b3b3b3;
+            margin: 1vh 5vh;
+            width: 35vh;
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            input {
+                text-align: center;
+
+                border: 1px rgb(30, 215, 96) solid;
+                border-radius: 2rem;
+                padding: .5vh 5vh;
+
+                margin: .7vh 0;
+            }
+
+            input:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            img {
+                width: 2rem;
+                margin-top: -3vh;
+
+                aspect-ratio: 1/1;
+                object-fit: cover;
+            }
+        }
+    }
+}
