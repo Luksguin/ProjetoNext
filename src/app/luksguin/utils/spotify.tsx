@@ -1,6 +1,5 @@
 'use server'
 
-import albuns from "../db/albuns.json"
 import { promises as fs } from 'fs';
 import path from 'path';
 
@@ -44,7 +43,7 @@ export async function buscarAlbum(form: FormData) {
     const data = await resposta.json();
     const album = data.albums.items[0]
 
-    const arq = JSON.parse(await fs.readFile(path.join(process.cwd(), 'src/app/db', 'albuns.json'), { encoding: 'utf-8', flag: 'r' }))
+    const arq = JSON.parse(await fs.readFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), { encoding: 'utf-8', flag: 'r' }))
 
     const novo = {
         id: album.id,
@@ -56,7 +55,7 @@ export async function buscarAlbum(form: FormData) {
     }
 
     arq.push(novo)
-    await fs.writeFile(path.join(process.cwd(), 'src/app/db', 'albuns.json'), JSON.stringify(arq, null, 2))
+    await fs.writeFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), JSON.stringify(arq, null, 2))
 }
 
 export async function getMusicas(albumId: string) {

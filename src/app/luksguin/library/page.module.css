@@ -42,16 +42,21 @@
                 justify-content: center;
                 align-items: center;
 
-                margin: auto auto 0 auto;
+                width: 70%;
+
+                margin: auto;
 
                 input {
                     text-align: center;
+                    font-size: 100%;
+
+                    width: 100%;
 
                     border: 1px rgb(30, 215, 96) solid;
                     border-radius: 2rem;
-                    padding: 2vh 20vh;
+                    padding: 3% 20%;
 
-                    margin: 1.5vh 0;
+                    margin: 2% 0;
                 }
 
                 input:focus {

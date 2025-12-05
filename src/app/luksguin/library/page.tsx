@@ -1,12 +1,12 @@
-import { addItem } from '../utils/serverActions'
+import { addAlbum } from '../utils/serverActions'
 import { buscarAlbum } from '../utils/spotify'
 import dados from '../db/albuns.json'
 import Card from './Card/card'
 import type { Metadata } from "next";
 import style from './page.module.css'
 import Image from 'next/image';
-import add from '../../images/plus.png'
-import lupa from '../../images/lupa.png'
+import add from '../images/plus.png'
+import lupa from '../images/lupa.png'
 
 export const metadata: Metadata = {
     title: "Library",
@@ -17,7 +17,7 @@ export default function page() {
         <div className={style.page}>
             <main>
                 <div className={style.forms}>
-                    <form action={addItem}>
+                    <form action={addAlbum}>
                         <h2>Adicionar meu álbum</h2>
 
                         <hr />

@@ -1,5 +1,5 @@
 import style from "./index.module.css"
-import spotify from '../../../images/spotify.png'
+import spotify from '../../images/spotify.png'
 import Image from "next/image"
 
 export default function index() {

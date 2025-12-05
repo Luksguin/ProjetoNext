@@ -5,14 +5,12 @@
     border: 1px solid #b3b3b3;
     border-radius: .6rem;
 
-    width: 127vh;
-
     margin: 1vh 2vh 1vh 0;
 
-    padding: 8px 10px 5px 0;
+    padding: 9px 0 5px 0;
 
     img {
-        width: 2.3rem;
+        width: 2rem;
 
         aspect-ratio: 1/1;
         object-fit: cover;
@@ -25,10 +23,10 @@
     }
 
     p {
-        margin-top: -.9vh;
+        margin-top: -8px;
     }
 
     .time {
-        margin: 4px 14px 0 auto;
+        margin: 1% 2% 1% auto;
     }
 }

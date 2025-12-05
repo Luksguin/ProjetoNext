@@ -4,15 +4,14 @@
     align-items: center;
     justify-content: baseline;
 
-
     form {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        margin-top: -4vh;
-        margin-left: -5vh;
+        margin-top: 5vh;
+        margin-left: -7vh;
 
         h2 {
             text-align: center;
@@ -25,7 +24,7 @@
         hr {
             border: 1px solid #b3b3b3;
             margin: 1vh 5vh;
-            width: 35vh;
+            width: 100%;
         }
 
         .inputs {
@@ -37,11 +36,14 @@
             input {
                 text-align: center;
 
+                width: 100%;
+
                 border: 1px rgb(30, 215, 96) solid;
                 border-radius: 2rem;
-                padding: .5vh 5vh;
 
-                margin: .7vh 0;
+                padding: .6% 0;
+
+                margin: 2.5% 0;
             }
 
             input:focus {
@@ -51,12 +53,21 @@
 
         button {
             img {
-                width: 2rem;
-                margin-top: -3vh;
+                width: 100%;
+
+                margin-top: -50%;
 
                 aspect-ratio: 1/1;
                 object-fit: cover;
             }
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .edit {
+        form {
+            display: none;
         }
     }
 }

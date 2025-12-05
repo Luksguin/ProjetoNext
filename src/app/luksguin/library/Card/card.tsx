@@ -1,9 +1,12 @@
-import CardButtons from './CardButtons/cardButtons'
+'use client'
+
+import CardButtons from '../CardButtons/cardButtons'
 import style from './card.module.css'
 import Music from '../Music/music'
 import { TiposMusic } from '../Music/music'
+import { useState } from 'react'
 
-type TiposCard = {
+type TiposAlbum = {
     id: string
     name: string
     image: string
@@ -12,7 +15,9 @@ type TiposCard = {
     musics: TiposMusic[]
 }
 
-export default function Card({ id, name, image, author, year, musics }: TiposCard) {
+export default function Card({ id, name, image, author, year, musics }: TiposAlbum) {
+    const [editando, setEditando] = useState(false)
+
     return (
         <div className={style.card}>
             <div className={style.header}>
@@ -29,6 +34,7 @@ export default function Card({ id, name, image, author, year, musics }: TiposCar
                         <Music
                             key={m.id}
                             id={m.id}
+                            idAlbum={id}
                             number={m.number}
                             name={m.name}
                             author={author}
@@ -41,8 +47,9 @@ export default function Card({ id, name, image, author, year, musics }: TiposCar
 
             <hr />
 
-            <div className={style.buttons}>
-                <CardButtons id={id} />
+            <div className={`${editando ? style.formsEditing : style.buttonsDefault}`}> {/* Altera o tamanho da div; */}
+                {/* Passa o id do álbum para conseguir trabalhar com ele e recebe o estado de edição atual através da função estadoAtual; */}
+                <CardButtons id={id} estadoAtual={(estado) => setEditando(estado)} />
             </div>
         </div>
     )
