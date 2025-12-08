@@ -19,7 +19,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="pt-br">
       <body className={fonte.className}>
         <Header></Header>
-
         {children}
 
         <Footer></Footer>

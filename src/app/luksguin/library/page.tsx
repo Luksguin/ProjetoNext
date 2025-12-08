@@ -7,12 +7,19 @@ import style from './page.module.css'
 import Image from 'next/image';
 import add from '../images/plus.png'
 import lupa from '../images/lupa.png'
+import { isSessionValid } from "../../auth"; // Ajuste o caminho se necessário (ex: "@/app/auth")
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
     title: "Library",
 };
 
-export default function page() {
+export default async function page() {
+    const isLogged = await isSessionValid();
+
+    if (!isLogged) {
+    redirect("/login");
+  }
     return (
         <div className={style.page}>
             <main>
