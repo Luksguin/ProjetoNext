@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 export default async function page() {
-    const isLogged = await isSessionValid();
+//     const isLogged = await isSessionValid();
 
-    if (!isLogged) {
-    redirect("/login");
-  }
+//     if (!isLogged) { hduhfdhjfds pohaaaa
+//     redirect("/login");
+//   }
     return (
         <div className={style.page}>
             <main>

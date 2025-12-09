@@ -3,15 +3,12 @@ import type { NextRequest } from "next/server";
 import * as jose from "jose";
 
 export async function middleware(request: NextRequest) {
-    //qual a rota que o individuo esta querendo acessar
-    const path = request.nextUrl.pathname;
+  //qual a rota que o individuo esta querendo acessar
+  const path = request.nextUrl.pathname;
+  //   console.log("jdhsgfjhdsfjhsdg")
 
   //rotas publicas
-  const publicRoutes = [
-    "/login",
-    "/create",
-    "/",
-  ];
+  const publicRoutes = ["/login", "/create", "/", "/api/login", "/api/create"];
 
   //ver se a rota que estamos querendo acessar é publica
   const isPublic = publicRoutes.includes(path.toLowerCase());
@@ -23,6 +20,7 @@ export async function middleware(request: NextRequest) {
   let sessionIsValid = false;
   if (sessionCookie) {
     try {
+      const tokenEnv = process.env.TOKEN;
       // Pega a chave secreta do arquivo .env
       const secret = new TextEncoder().encode(process.env.TOKEN);
       await jose.jwtVerify(sessionCookie, secret);
@@ -31,14 +29,13 @@ export async function middleware(request: NextRequest) {
       // Token inválido ou expirado
       sessionIsValid = false;
     }
+  } else {
   }
-
- 
 
   //caso nao esteja logado e queira pegar um rota privada
   if (!isPublic && !sessionIsValid) {
     //te manda para a tela de login
-    return NextResponse.redirect(new URL("/Login", request.url));
+    return NextResponse.redirect(new URL("/create", request.url));
   }
 
   //se ele ja estiver logado e quiser ir para login ou create vamos barrar para nao fazer outro login
@@ -47,7 +44,7 @@ export async function middleware(request: NextRequest) {
     (path.toLowerCase() === "/login" || path.toLowerCase() === "/create")
   ) {
     // te manda para a pagina que vc tem acesso
-    return NextResponse.redirect(new URL("/guinho", request.url));
+    return NextResponse.redirect(new URL("/luksguin/library", request.url));
   }
 
   // se passou em tudo, pode continuar

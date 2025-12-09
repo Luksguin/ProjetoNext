@@ -1,101 +1,124 @@
 [
   {
-    "id": "3Gt7rOjcZQoHCfnKl5AkK7",
-    "name": "Minecraft - Volume Alpha",
-    "image": "https://i.scdn.co/image/ab67616d0000b273aaeb5c9fb6131977995b7f0e",
-    "author": "C418",
-    "year": "2011",
+    "id": "5WrpCQmbTUZuzNxGCPUFSV",
+    "name": "Alfredo 2",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e098f51a1a2ebb827dc6099a",
+    "author": "Freddie Gibbs",
+    "year": "2025",
     "musics": [
       {
-        "id": "7K7E7LKK51PezScgsvVg9Y",
+        "id": "3lGHMz9BIUZWFEx0fhS4VF",
         "number": 1,
-        "name": "Key",
-        "link": "https://open.spotify.com/track/7K7E7LKK51PezScgsvVg9Y",
-        "duration": 65
+        "name": "1995",
+        "link": "https://open.spotify.com/track/3lGHMz9BIUZWFEx0fhS4VF",
+        "duration": 289
       },
       {
-        "id": "6PR3ZUCnxtQTEu30qgZLwT",
+        "id": "1b9cpyNQnzlmMDd7vs3NT9",
         "number": 2,
-        "name": "Door",
-        "link": "https://open.spotify.com/track/6PR3ZUCnxtQTEu30qgZLwT",
-        "duration": 111
+        "name": "Mar-a-Lago",
+        "link": "https://open.spotify.com/track/1b9cpyNQnzlmMDd7vs3NT9",
+        "duration": 179
       },
       {
-        "id": "1OJxI8lIWRqBvouJxW1nzN",
+        "id": "0JoGpxGXpz5vuam5Fopc4C",
         "number": 3,
-        "name": "Subwoofer Lullaby",
-        "link": "https://open.spotify.com/track/1OJxI8lIWRqBvouJxW1nzN",
+        "name": "Lemon Pepper Steppers",
+        "link": "https://open.spotify.com/track/0JoGpxGXpz5vuam5Fopc4C",
+        "duration": 167
+      },
+      {
+        "id": "06ZX08uRQDK02emdw9mN28",
+        "number": 4,
+        "name": "Ensalada (feat. Anderson .Paak)",
+        "link": "https://open.spotify.com/track/06ZX08uRQDK02emdw9mN28",
+        "duration": 227
+      },
+      {
+        "id": "60VOmWCHNsIIRZQ7zVezYB",
+        "number": 5,
+        "name": "Empanadas",
+        "link": "https://open.spotify.com/track/60VOmWCHNsIIRZQ7zVezYB",
+        "duration": 188
+      },
+      {
+        "id": "5BBWTubm5NDw1tIQoGkfJo",
+        "number": 6,
+        "name": "Skinny Suge II",
+        "link": "https://open.spotify.com/track/5BBWTubm5NDw1tIQoGkfJo",
+        "duration": 191
+      },
+      {
+        "id": "4ig1U15Fek3EOm6lJppxu1",
+        "number": 7,
+        "name": "Feeling (feat. Larry June)",
+        "link": "https://open.spotify.com/track/4ig1U15Fek3EOm6lJppxu1",
+        "duration": 235
+      },
+      {
+        "id": "3MkzhFS21pIGreE1G6Sds2",
+        "number": 8,
+        "name": "I Still Love H.E.R.",
+        "link": "https://open.spotify.com/track/3MkzhFS21pIGreE1G6Sds2",
+        "duration": 172
+      },
+      {
+        "id": "7I3cmK1BCShHs3MIZ3rOWF",
+        "number": 9,
+        "name": "Shangri La",
+        "link": "https://open.spotify.com/track/7I3cmK1BCShHs3MIZ3rOWF",
+        "duration": 182
+      },
+      {
+        "id": "5OZfeZTa0R88oA4HCZApom",
+        "number": 10,
+        "name": "Gas Station Sushi",
+        "link": "https://open.spotify.com/track/5OZfeZTa0R88oA4HCZApom",
         "duration": 209
       },
       {
-        "id": "4B6A1T91lF1IRKkBVwUzWe",
-        "number": 4,
-        "name": "Death",
-        "link": "https://open.spotify.com/track/4B6A1T91lF1IRKkBVwUzWe",
-        "duration": 42
-      },
-      {
-        "id": "4x79cjezqX3yd15rSrAVFF",
-        "number": 5,
-        "name": "Living Mice",
-        "link": "https://open.spotify.com/track/4x79cjezqX3yd15rSrAVFF",
-        "duration": 178
-      },
-      {
-        "id": "4Ar3oSp4bAw5gz22F70GM7",
-        "number": 6,
-        "name": "Moog City",
-        "link": "https://open.spotify.com/track/4Ar3oSp4bAw5gz22F70GM7",
-        "duration": 160
-      },
-      {
-        "id": "4RROfcxQXFIwW0ugcZfdC4",
-        "number": 7,
-        "name": "Haggstrom",
-        "link": "https://open.spotify.com/track/4RROfcxQXFIwW0ugcZfdC4",
-        "duration": 204
-      },
-      {
-        "id": "6xwhCiWXREsAIQVZqHswVw",
-        "number": 8,
-        "name": "Minecraft",
-        "link": "https://open.spotify.com/track/6xwhCiWXREsAIQVZqHswVw",
-        "duration": 254
-      },
-      {
-        "id": "3sbcAG3y97g63yDSVMf38o",
-        "number": 9,
-        "name": "Oxygène",
-        "link": "https://open.spotify.com/track/3sbcAG3y97g63yDSVMf38o",
-        "duration": 65
-      },
-      {
-        "id": "37WtwAa4PzRprHMp7Esdds",
-        "number": 10,
-        "name": "Équinoxe",
-        "link": "https://open.spotify.com/track/37WtwAa4PzRprHMp7Esdds",
-        "duration": 115
-      },
-      {
-        "id": "5fqjfiMOFapIb8uFcxBStH",
+        "id": "6cJafURmTOqf5y8Ub251At",
         "number": 11,
-        "name": "Mice On Venus",
-        "link": "https://open.spotify.com/track/5fqjfiMOFapIb8uFcxBStH",
-        "duration": 282
+        "name": "Lavish Habits",
+        "link": "https://open.spotify.com/track/6cJafURmTOqf5y8Ub251At",
+        "duration": 177
       },
       {
-        "id": "4o0YiMA52IzmOn5yIdIhu5",
+        "id": "6yZPdc1jlYnG9QFG8WnrMm",
         "number": 12,
-        "name": "Clark",
-        "link": "https://open.spotify.com/track/4o0YiMA52IzmOn5yIdIhu5",
-        "duration": 192
+        "name": "Gold Feet (feat. J.I.D.)",
+        "link": "https://open.spotify.com/track/6yZPdc1jlYnG9QFG8WnrMm",
+        "duration": 222
       },
       {
-        "id": "0kZEfdlIq3sfQklsGcUZDm",
+        "id": "1WvyaKxb7faFP3r2mtPV8e",
         "number": 13,
-        "name": "Droopy Likes Your Face",
-        "link": "https://open.spotify.com/track/0kZEfdlIq3sfQklsGcUZDm",
-        "duration": 117
+        "name": "Jean Claude",
+        "link": "https://open.spotify.com/track/1WvyaKxb7faFP3r2mtPV8e",
+        "duration": 184
+      },
+      {
+        "id": "1hZsH26IxBQAYyOZUKOuVF",
+        "number": 14,
+        "name": "A Thousand Mountains",
+        "link": "https://open.spotify.com/track/1hZsH26IxBQAYyOZUKOuVF",
+        "duration": 245
+      }
+    ]
+  },
+  {
+    "id": "06re45NBDCPah74jnVOISQ",
+    "name": "IRIS OUT",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736d1d4e875e2424cdd07f3232",
+    "author": "Kenshi Yonezu",
+    "year": "2025",
+    "musics": [
+      {
+        "id": "59hVbgr8rfYkDbHfr8RcGI",
+        "number": 1,
+        "name": "IRIS OUT",
+        "link": "https://open.spotify.com/track/59hVbgr8rfYkDbHfr8RcGI",
+        "duration": 152
       }
     ]
   }
