@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { editAlbum } from '../../utils/serverActions'
 import { rmAlbum } from '../../utils/serverActions'
+import { addMusica } from '../../utils/serverActions'
 import Image from 'next/image'
 import edit from '../../images/edit.png'
 import remove from '../../images/remove.png'
@@ -25,34 +26,71 @@ type TypeRemove = {
     id: string;
 }
 
+type TypeAddMusic = {
+    id: string;
+    estaAdicionando: boolean;
+    inversor: () => void;
+}
+
 export default function CardButtons({ id, estadoAtual }: TypeButtons) {
     const [editando, setEditando] = useState(false)
+    const [adicionando, setAdicionando] = useState(false)
 
-    {/* Quando clicar no botão de edição vai atualizar os estados; */}
+    {/* Quando clicar no botão de edição vai atualizar os estados; */ }
     function gerenciarEdicao(estado: boolean) {
         setEditando(estado); // Usado para apagar os botões e ligar o form;
+        estadoAtual(estado); // Manda o estado novo pro Card;
+    }
+
+    {/* Quando clicar no botão de adição vai atualizar os estados; */ }
+    function gerenciarAdicao(estado: boolean) {
+        setAdicionando(estado); // Usado para apagar os botões e ligar o form;
         estadoAtual(estado); // Manda o estado novo pro Card;
     }
 
     return (
         <div>
             {!editando && (
-                <AddMusicButton />
+                <AddMusicButton id={id} estaAdicionando={adicionando} inversor={() => gerenciarAdicao(!adicionando)} />
             )}
 
-            <EditAlbumButton id={id} estaEditando={editando} inversor={() => gerenciarEdicao(!editando)} />
+            {!adicionando && (
+                <EditAlbumButton id={id} estaEditando={editando} inversor={() => gerenciarEdicao(!editando)} />
+            )}
 
-            {!editando && (
+            {!editando && !adicionando && (
                 <RemoveAlbumButton id={id} />
             )}
         </div >
     )
 }
 
-function AddMusicButton() {
+function AddMusicButton({ id, estaAdicionando, inversor }: TypeAddMusic) {
+    async function concluir(form: FormData) {
+        await addMusica(id, form)
+        inversor()
+    }
+
     return (
-        <div>
-            <button><Image src={add} alt='Adicionar' /></button>
+        <div className={style.menu}>
+            {estaAdicionando ? (
+                <form action={concluir}>
+                    <h2>Adicionando</h2>
+
+                    <hr />
+
+                    <div className={style.inputs}>
+                        <input type="text" name='name' placeholder="Nome" required/>
+                        <input type="text" name='link' placeholder="Link" required/>
+                        <input type="number" name='duration' placeholder=" Tempo em Segundos" required/>
+                    </div>
+
+                    <button type='submit'><Image src={ok} alt='Adicionar' /></button>
+                </form>
+            ) : (
+                <button onClick={inversor}><Image src={add} alt='Adicionar' /></button>
+            )}
+
         </div>
     )
 }
@@ -66,7 +104,7 @@ function EditAlbumButton({ id, estaEditando, inversor }: TypeEdit) {
     }
 
     return (
-        <div className={style.edit}>
+        <div className={style.menu}>
             {estaEditando ? (
                 <form action={concluir}>
                     <h2>Editando</h2>

@@ -30,7 +30,7 @@ export default function Music({ id, idAlbum, number, name, link, author, duratio
                 <p>{author}</p>
             </div>
 
-            <p className={style.time}>{Math.round(duration / 60)}:{Math.round(duration % 60).toString().padStart(2, '0')}</p>
+            <p className={style.time}>{Math.floor(duration / 60)}:{Math.round(duration % 60).toString().padStart(2, '0')}</p>
             <RemoveMusicaButton idAlbum={idAlbum} idMusica={id}></RemoveMusicaButton>
         </div>
     )

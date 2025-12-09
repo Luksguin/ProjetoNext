@@ -8,11 +8,12 @@ export async function addAlbum(form: FormData) {
     const arq = JSON.parse(await fs.readFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), { encoding: 'utf-8', flag: 'r' }))
 
     const novo = {
-        id: Date.now(),
+        id: Date.now().toString(),
         name: form.get('name'),
         image: form.get('image'),
         author: form.get('author'),
-        year: form.get('year')
+        year: form.get('year'),
+        musics: []
     }
 
     arq.push(novo)
@@ -46,18 +47,21 @@ export async function rmAlbum(id: string) {
     await fs.writeFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), JSON.stringify(nova, null, 2))
 }
 
-export async function addMusica(form: FormData) {
+export async function addMusica(idAlbum: string, form: FormData) {
     const arq = JSON.parse(await fs.readFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), { encoding: 'utf-8', flag: 'r' }))
 
-    const novo = {
-        id: Date.now(),
-        name: form.get('name'),
-        image: form.get('image'),
-        author: form.get('author'),
-        year: form.get('year')
-    }
+    const album = arq[arq.findIndex((i: any) => i.id === idAlbum)]
 
-    arq.push(novo)
+    const nova = {
+        id: Date.now().toString(),
+        number: album.musics.length + 1,
+        name: form.get('name'),
+        link: form.get('link'),
+        duration: form.get('duration')
+    }
+    console.log(nova)
+
+    album.musics.push(nova)
 
     await fs.writeFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), JSON.stringify(arq, null, 2))
 }
@@ -65,11 +69,11 @@ export async function addMusica(form: FormData) {
 export async function rmMusica(idAlbum: string, idMusica: string) {
     const arq = JSON.parse(await fs.readFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), { encoding: 'utf-8', flag: 'r' }))
 
-    const album = arq.findIndex((i: any) => i.id === idAlbum)
-    const filtro = arq[album].musics.filter((m: any) => m.id !== idMusica)
-    arq[album].musics = filtro
+    const album = arq[arq.findIndex((i: any) => i.id === idAlbum)]
+    const filtro = album.musics.filter((m: any) => m.id !== idMusica)
+    album.musics = filtro
 
-    for(let i in arq[album].musics) arq[album].musics[i].number = parseInt(i) + 1
+    for(let i in album.musics) album.musics[i].number = parseInt(i) + 1
 
     await fs.writeFile(path.join(process.cwd(), 'src/app/luksguin/db', 'albuns.json'), JSON.stringify(arq, null, 2))
 }

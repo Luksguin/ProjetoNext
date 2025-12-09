@@ -40,8 +40,8 @@ export default function page() {
                         <hr />
 
                         <div className={style.inputs}>
-                            <input type="text" name="name" placeholder='Nome do Álbum' required />
-                            <input type="text" name='author' placeholder='Autor' required />
+                            <input type="text" name="name" placeholder='Nome do Álbum'/>
+                            <input type="text" name='author' placeholder='Autor'/>
                         </div>
                         
                         <button type='submit'><Image src={lupa} alt='Buscar'></Image></button>
