@@ -1,6 +1,6 @@
 import style from './index.module.css'
 import Image from 'next/image'
-import logout from '../../images/logout.png'
+import logout from '../../../../images/logout.png'
 
 export default function index() {
   return (

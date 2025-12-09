@@ -1,7 +1,7 @@
 import { rmMusica } from '../../utils/serverActions'
 import Image from 'next/image'
-import play from '../../images/play.png'
-import remove from '../../images/remove.png'
+import play from '../../../../images/play.png'
+import remove from '../../../../images/remove.png'
 import style from './music.module.css'
 
 export type TiposMusic = {

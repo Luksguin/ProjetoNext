@@ -5,21 +5,14 @@ import Card from './Card/card'
 import type { Metadata } from "next";
 import style from './page.module.css'
 import Image from 'next/image';
-import add from '../images/plus.png'
-import lupa from '../images/lupa.png'
-import { isSessionValid } from "../../auth"; // Ajuste o caminho se necessário (ex: "@/app/auth")
-import { redirect } from "next/navigation";
+import add from '../../../images/plus.png'
+import lupa from '../../../images/lupa.png'
 
 export const metadata: Metadata = {
     title: "Library",
 };
 
-export default async function page() {
-//     const isLogged = await isSessionValid();
-
-//     if (!isLogged) { hduhfdhjfds pohaaaa
-//     redirect("/login");
-//   }
+export default function page() {
     return (
         <div className={style.page}>
             <main>
