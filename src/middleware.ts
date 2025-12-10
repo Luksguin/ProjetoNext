@@ -22,7 +22,6 @@ export async function middleware(request: NextRequest) {
   if (sessionCookie) {
     //verifica se o cookie é compativel com o jwt dentro dele
     try {
-      // Pega a chave secreta do arquivo .env
       const secret = new TextEncoder().encode(process.env.TOKEN);
       await jose.jwtVerify(sessionCookie, secret);
       sessionIsValid = true;
@@ -30,9 +29,7 @@ export async function middleware(request: NextRequest) {
       // Token inválido ou expirado
       sessionIsValid = false;
     }
-  } else {
-  }
-
+  } 
   //caso nao esteja logado e queira pegar um rota privada
   if (!isPublic && !sessionIsValid) {
     //te manda para a tela de login
