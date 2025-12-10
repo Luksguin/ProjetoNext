@@ -7,7 +7,7 @@ import { cookies } from "next/headers";
 export async function openSessionToken(token: string) {
   const senha = new TextEncoder().encode(process.env.TOKEN);
   const { payload } = await jose.jwtVerify(token, senha);
-  return payload;
+  return payload;   
 }
 
 //funcao para criar a sessão e salvar nos cookie
@@ -30,21 +30,7 @@ export async function createSessionToken(payload = {}) {
   });
 }
 
-//validar se a sessão existe
-export async function isSessionValid() {
-  const sessaoCookie = (await cookies()).get("session");
-
-  if (sessaoCookie) {
-    const { value } = sessaoCookie;
-    const { exp } = await openSessionToken(value);
-    const data = new Date().getTime();
-    return (exp as number) * 1000 > data;
-  }
-
-  return false;
-}
-
-//funcao de deletar a sessão
+//funcao de deletar a sessão para fazer o logout
 export async function SessionOff() {
     const sessaoCookie = (await cookies())
     sessaoCookie.delete("session")

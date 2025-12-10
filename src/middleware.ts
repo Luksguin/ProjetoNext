@@ -36,8 +36,8 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL("/create", request.url));
   }
 
-  //se ele ja estiver logado e quiser ir para create vamos barrar para nao fazer outro  diferente do que o token ja tem
-  if (sessionIsValid && path.toLowerCase() === "/create") {
+  //se ele ja estiver logado e quiser ir para login vamos barrar para nao fazer outro  diferente do que o token ja tem
+  if (sessionIsValid && path.toLowerCase() === "/login") {
     // te manda para a pagina que vc tem acesso
     return NextResponse.redirect(new URL("/luksguin/library", request.url));
   }

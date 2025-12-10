@@ -28,11 +28,11 @@ export default function Login() {
   return (
     <div className="bg-black w-screen h-screen flex items-center justify-center text-white text-4xl">
       <div className="border-2 border-white w-[100vh] h-auto p-10 rounded-4xl flex items-center flex-col gap-5">
-        <img
+        {/* <img
           src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_Green.png"
           alt="Spotify Logo"
           className="h-[15vh] mb-10 object-contain"
-        />
+        /> */}
         <p>Bem vindo ao SpotGuinho</p>
 
         <form
