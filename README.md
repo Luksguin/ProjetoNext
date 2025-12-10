@@ -40,6 +40,7 @@ Para a execução do trabalho foi utilizados das tecnolgia:
 * NextRequest
 * Yup
 * Better-Sqlite3
+* Tailwind-CSS
 
 ## Imagens da aplicação
 
