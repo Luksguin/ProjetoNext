@@ -1,11 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import * as yup from "yup";
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/navigation";
 
-//validacao de campo
+//padrao para validacao
 const schema = yup.object({
   email: yup.string().email("E-mail inválido").required("E-mail obrigatório"),
   password: yup
@@ -14,44 +13,70 @@ const schema = yup.object({
     .required("Senha obrigatória"),
   confirmPass: yup
     .string()
-    .oneOf([yup.ref("password")], "As senhas não conferem")
+    .oneOf([yup.ref("password")], "As senhas não conferem") // funcao para ver se as senhas sao iguais
     .required("Confirmação obrigatória"),
 });
-
-type FormData = yup.InferType<typeof schema>;
 
 export default function Create() {
   const router = useRouter();
 
-  // Configuração do React Hook Form com Yup
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<FormData>({
-    resolver: yupResolver(schema),
-  });
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPass, setConfirmPass] = useState("");
+  
+  // todos os erros
+  const [errors, setErrors] = useState<any>({}); 
 
-  //pra mandar pra salvar
-  const onSubmit = async (data: FormData) => {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    // objeto para validacao do yup
+    const dadosDoFormulario = {
+      email,
+      password,
+      confirmPass,
+    };
+
+    try {
+      // Tenta validar com Yup
+      await schema.validate(dadosDoFormulario, { abortEarly: false });
+      
+      // se passou reseta os erros
+      setErrors({});
+
       const response = await fetch("/api/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          email: data.email,
-          password: data.password,
+          email: email,
+          password: password,
         }),
       });
 
       if (response.ok) {
         alert("Usuário cadastrado com sucesso!");
-        router.push("/login"); // te manda pra tela de login depois de criar o usuário
+        router.push("/login");
       } else {
         const errorData = await response.json();
         alert(errorData.message);
       }
+
+    } catch (err) {
+      // Se o schema.validate der erro, ele cai aqui
+      if (err instanceof yup.ValidationError) {
+        const validationErrors: any = {};
+        
+        err.inner.forEach((error) => {
+          if (error.path) {
+            validationErrors[error.path] = error.message;
+          }
+        });
+        
+        setErrors(validationErrors);
+      }
+    }
   };
 
   return (
@@ -65,44 +90,45 @@ export default function Create() {
 
         <p className="mb-4 text-center">Inscreva-se em uma conta grátis</p>
 
-        <form
-          onSubmit={handleSubmit(onSubmit)}
-          className="flex gap-4 w-full flex-col items-center"
-        >
+        <form onSubmit={handleSubmit} className="flex gap-4 w-full flex-col items-center">
+          
           <div className="w-[50vh]">
             <input
               type="text"
               placeholder="E-mail"
-              {...register("email")}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)} 
               className="w-full bg-gray-400 h-[6vh] border-green-500 border-2 rounded-4xl text-black text-2xl px-4"
             />
-            <p className="text-red-500 text-sm mt-1 pl-2">
-              {errors.email?.message}
-            </p>
+            {errors.email && (
+                <p className="text-red-500 text-sm mt-1 pl-2">{errors.email}</p>
+            )}
           </div>
 
           <div className="w-[50vh]">
             <input
               type="password"
               placeholder="Senha"
-              {...register("password")}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               className="w-full bg-gray-400 h-[6vh] border-green-500 border-2 rounded-4xl text-black text-2xl px-4"
             />
-            <p className="text-red-500 text-sm mt-1 pl-2">
-              {errors.password?.message}
-            </p>
+             {errors.password && (
+                <p className="text-red-500 text-sm mt-1 pl-2">{errors.password}</p>
+            )}
           </div>
 
           <div className="w-[50vh]">
             <input
               type="password"
               placeholder="Confirme sua Senha"
-              {...register("confirmPass")}
+              value={confirmPass}
+              onChange={(e) => setConfirmPass(e.target.value)}
               className="w-full bg-gray-400 h-[6vh] border-green-500 border-2 rounded-4xl text-black text-2xl px-4"
             />
-            <p className="text-red-500 text-sm mt-1 pl-2">
-              {errors.confirmPass?.message}
-            </p>
+             {errors.confirmPass && (
+                <p className="text-red-500 text-sm mt-1 pl-2">{errors.confirmPass}</p>
+            )}
           </div>
 
           <button

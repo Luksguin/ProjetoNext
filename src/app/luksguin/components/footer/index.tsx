@@ -1,9 +1,18 @@
+"use client";
+
 import style from './index.module.css'
 import Image from 'next/image'
 import logout from '../../../../images/logout.png'
-import Link from 'next/link'
+import { SessionOff } from '@/app/auth'
+import { useRouter } from 'next/navigation'
 
-export default function index() {
+export default function HandleLogout() {
+    const router = useRouter();
+    const fazerLogout = async () => {
+        await SessionOff();
+        router.push("/login")
+    }
+
   return (
     <div className={style.footer}>
       <h2>GitHubs:</h2>
@@ -14,7 +23,7 @@ export default function index() {
 
       <p>Obrigado!</p>
 
-      <Link href={"/login"}><button><Image src={logout} alt='Sair'/></button></Link>
+      <button onClick={fazerLogout} className='hover:cursor-pointer'><Image src={logout} alt='Sair'/></button>
     </div>
   )
 }

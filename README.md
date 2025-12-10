@@ -10,7 +10,7 @@ npm i
 ```
 
 Logo ápos temos que criar um arquivo .env:
-TOKEN=<qualquerPalavraForte>
+TOKEN="AlgumValorDefinidoPeloUsuario"
 
 Em seguida, vamos rodar o projeto
 ```bash

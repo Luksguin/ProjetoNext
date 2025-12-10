@@ -1,3 +1,5 @@
+"use server";
+
 import * as jose from "jose";
 import { cookies } from "next/headers";
 
@@ -40,4 +42,10 @@ export async function isSessionValid() {
   }
 
   return false;
+}
+
+//funcao de deletar a sessão
+export async function SessionOff() {
+    const sessaoCookie = (await cookies())
+    sessaoCookie.delete("session")
 }
