@@ -27,10 +27,10 @@ bun dev
 ```
 
 Para a realização do projeto foi utilizado NEXTjs, tanto no Frontend (baseado em React ) quando no Backend, na qual apresenta as seguintes funcionalidades:
-1- Create/Login de usuário para validação da entrada (via JWT), criptografia de token, hospedagem em cookie, armazenamento de cadastro e validações de formulários
-2- Rota Privada, na qual precisa-se de email e senha validas(ou token válido) para o acesso da mesma
-3- CRUD de álbuns e música
-4- Integração com API do Spotify, a fim de listar as musicas hospedadas no site, utilizando-se de métodos POST/GET para a realização de tal tarefa
+1. Create/Login de usuário para validação da entrada (via JWT), criptografia de token, hospedagem em cookie, armazenamento de cadastro e validações de formulários
+2. Rota Privada, na qual precisa-se de email e senha validas(ou token válido) para o acesso da mesma
+3. CRUD de álbuns e música
+4. Integração com API do Spotify, a fim de listar as musicas hospedadas no site, utilizando-se de métodos POST/GET para a realização de tal tarefa
 
 
 Para a execução do trabalho foi utilizados das tecnolgia:
