@@ -34,23 +34,23 @@ Para a execução do trabalho foi utilizados das tecnolgia:
 ## Imagens da aplicação
 
 Tela de apresentação:
-![ImagemAplicacao](images/Captura de tela de 2025-12-10 19-34-31.png)
+![ImagemAplicacao](src/images/1.png)
 
 Tela de login:
-![ImagemLogin](src/images/Captura de tela de 2025-12-10 19-34-58.png)
+![ImagemLogin](src/images/2.png)
 
 Tela de Create:
-![ImagemCreate](src/images/Captura de tela de 2025-12-10 19-35-08.png)
+![ImagemCreate](src/images/3.png)
 
 Tela de Inclusão de Álbuns proprietários e com API do Spotify:
-![ImagemAlbuns](src/images/Captura de tela de 2025-12-10 19-35-44.png)
+![ImagemAlbuns](src/images/4.png)
 
 Tela de listagem de Álbuns:
-![ImagemListagem](src/images/Captura de tela de 2025-12-10 19-35-52.png)
+![ImagemListagem](src/images/5.png)
 
 Tela de Adicionar Músicas ao Álbum específico:
-![ImagemAddMusic](src/images/Captura de tela de 2025-12-10 19-36-08.png)
+![ImagemAddMusic](src/images/6.png)
 
 Tela de Edição das especificações do Álbum:
-![ImagemEditAlbum](src/images/Captura de tela de 2025-12-10 19-36-36.png)
+![ImagemEditAlbum](src/images/7.png)
 
