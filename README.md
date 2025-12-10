@@ -34,7 +34,7 @@ Para a execução do trabalho foi utilizados das tecnolgia:
 ## Imagens da aplicação
 
 Tela de apresentação:
-![ImagemAplicacao](src/images/Captura de tela de 2025-12-10 19-34-31.png)
+![ImagemAplicacao](images/Captura de tela de 2025-12-10 19-34-31.png)
 
 Tela de login:
 ![ImagemLogin](src/images/Captura de tela de 2025-12-10 19-34-58.png)
