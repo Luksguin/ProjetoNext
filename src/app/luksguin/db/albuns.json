@@ -1,86 +1,7 @@
 [
   {
-    "id": "6ZG5lRT77aJ3btmArcykra",
-    "name": "Parachutes",
-    "image": "https://i.scdn.co/image/ab67616d0000b2739164bafe9aaa168d93f4816a",
-    "author": "Coldplay",
-    "year": "2000",
-    "musics": [
-      {
-        "id": "2QhURnm7mQDxBb5jWkbDug",
-        "number": 1,
-        "name": "Don't Panic",
-        "link": "https://open.spotify.com/track/2QhURnm7mQDxBb5jWkbDug",
-        "duration": 137
-      },
-      {
-        "id": "0qksx8mV28lztYIZ1om8ml",
-        "number": 2,
-        "name": "Shiver",
-        "link": "https://open.spotify.com/track/0qksx8mV28lztYIZ1om8ml",
-        "duration": 304
-      },
-      {
-        "id": "2mLgOcRkEgq89j8WstUpui",
-        "number": 3,
-        "name": "Spies",
-        "link": "https://open.spotify.com/track/2mLgOcRkEgq89j8WstUpui",
-        "duration": 319
-      },
-      {
-        "id": "7D0RhFcb3CrfPuTJ0obrod",
-        "number": 4,
-        "name": "Sparks",
-        "link": "https://open.spotify.com/track/7D0RhFcb3CrfPuTJ0obrod",
-        "duration": 227
-      },
-      {
-        "id": "3AJwUDP919kvQ9QcozQPxg",
-        "number": 5,
-        "name": "Yellow",
-        "link": "https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg",
-        "duration": 267
-      },
-      {
-        "id": "0R8P9KfGJCDULmlEoBagcO",
-        "number": 6,
-        "name": "Trouble",
-        "link": "https://open.spotify.com/track/0R8P9KfGJCDULmlEoBagcO",
-        "duration": 273
-      },
-      {
-        "id": "4qzoHxgp42ylb18ga1SWTL",
-        "number": 7,
-        "name": "Parachutes",
-        "link": "https://open.spotify.com/track/4qzoHxgp42ylb18ga1SWTL",
-        "duration": 46
-      },
-      {
-        "id": "2DHgvPQD1jApRnT1DBZdrS",
-        "number": 8,
-        "name": "High Speed",
-        "link": "https://open.spotify.com/track/2DHgvPQD1jApRnT1DBZdrS",
-        "duration": 256
-      },
-      {
-        "id": "5TB6QgrF0RPIxSCGfRDLoe",
-        "number": 9,
-        "name": "We Never Change",
-        "link": "https://open.spotify.com/track/5TB6QgrF0RPIxSCGfRDLoe",
-        "duration": 249
-      },
-      {
-        "id": "1RNtm45kw0hPMBz7gKiIYu",
-        "number": 10,
-        "name": "Everything's Not Lost - Includes Hidden Track 'Life Is For Living'",
-        "link": "https://open.spotify.com/track/1RNtm45kw0hPMBz7gKiIYu",
-        "duration": 436
-      }
-    ]
-  },
-  {
     "id": "1765309908013",
-    "name": "Minha Playlist",
+    "name": "web",
     "image": "data:image/jpeg;base64,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",
     "author": "Eu Mesmo",
     "year": "2025",
@@ -307,88 +228,1055 @@
     ]
   },
   {
-    "id": "3Us57CjssWnHjTUIXBuIeH",
-    "name": "Bad (Remastered)",
-    "image": "https://i.scdn.co/image/ab67616d0000b2732e0cd1330748a5b7764dd562",
-    "author": "Michael Jackson",
-    "year": "1987",
+    "id": "5t5BES3FsvBvL21Fg6x1AA",
+    "name": "Dark Souls 3 (Original Game Soundtrack)",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735b8b6bc0bd351d7129386d7f",
+    "author": "フロム・ソフトウェア サウンドチーム",
+    "year": "2024",
     "musics": [
       {
-        "id": "2gSNBigeWMVtY3QBIvPAEc",
+        "id": "06tiaPk8QogsgyJ9sloR0c",
         "number": 1,
-        "name": "Bad - 2012 Remaster",
-        "link": "https://open.spotify.com/track/2gSNBigeWMVtY3QBIvPAEc",
-        "duration": 247
+        "name": "Premonition",
+        "link": "https://open.spotify.com/track/06tiaPk8QogsgyJ9sloR0c",
+        "duration": 126
       },
       {
-        "id": "76HKOVWqsEg26SECtmw7Rz",
+        "id": "5Vxv41CvQMNvslOwWx3PIO",
         "number": 2,
-        "name": "The Way You Make Me Feel - 2012 Remaster",
-        "link": "https://open.spotify.com/track/76HKOVWqsEg26SECtmw7Rz",
-        "duration": 298
+        "name": "DARK SOULS Ⅲ",
+        "link": "https://open.spotify.com/track/5Vxv41CvQMNvslOwWx3PIO",
+        "duration": 167
       },
       {
-        "id": "5SpHSOne318K5q7EBYndT6",
+        "id": "6r98oGdWPdfxQJblw2jvIn",
         "number": 3,
-        "name": "Speed Demon - 2012 Remaster",
-        "link": "https://open.spotify.com/track/5SpHSOne318K5q7EBYndT6",
-        "duration": 242
+        "name": "Prologue",
+        "link": "https://open.spotify.com/track/6r98oGdWPdfxQJblw2jvIn",
+        "duration": 191
       },
       {
-        "id": "2WzQbiXKpmRNLWXbqo8Z7b",
+        "id": "0oLK0KuDVLT3JVDpQQLHOT",
         "number": 4,
-        "name": "Liberian Girl - 2012 Remastered Version",
-        "link": "https://open.spotify.com/track/2WzQbiXKpmRNLWXbqo8Z7b",
-        "duration": 233
+        "name": "Firelink Shrine",
+        "link": "https://open.spotify.com/track/0oLK0KuDVLT3JVDpQQLHOT",
+        "duration": 187
       },
       {
-        "id": "3MayfpbIgeGye2ilwK3LII",
+        "id": "7JEfUR0zWt3pdbijmrsx0Q",
         "number": 5,
-        "name": "Just Good Friends - 2012 Remaster",
-        "link": "https://open.spotify.com/track/3MayfpbIgeGye2ilwK3LII",
-        "duration": 247
+        "name": "Iudex Gundyr",
+        "link": "https://open.spotify.com/track/7JEfUR0zWt3pdbijmrsx0Q",
+        "duration": 224
       },
       {
-        "id": "2hBJgz4Ye9MkkmBbaDTTKx",
+        "id": "2FIqKAoDefoCMnQBvk9jBK",
         "number": 6,
-        "name": "Another Part of Me - 2012 Remaster",
-        "link": "https://open.spotify.com/track/2hBJgz4Ye9MkkmBbaDTTKx",
-        "duration": 235
+        "name": "Vordt of the Boreal Valley",
+        "link": "https://open.spotify.com/track/2FIqKAoDefoCMnQBvk9jBK",
+        "duration": 246
       },
       {
-        "id": "3c7Ctlw9MKlIQPxRH3fOTt",
+        "id": "7y484NrckY2kIHjfYkDFxb",
         "number": 7,
-        "name": "Man in the Mirror - 2012 Remaster",
-        "link": "https://open.spotify.com/track/3c7Ctlw9MKlIQPxRH3fOTt",
-        "duration": 319
+        "name": "Curse-rotted Greatwood",
+        "link": "https://open.spotify.com/track/7y484NrckY2kIHjfYkDFxb",
+        "duration": 252
       },
       {
-        "id": "5DVK3a3p37V9cLjzNa32Xo",
+        "id": "25bVoTOlaW0q1PeOD0AYiL",
         "number": 8,
-        "name": "I Just Can't Stop Loving You (feat. Siedah Garrett) - 2012 Remaster",
-        "link": "https://open.spotify.com/track/5DVK3a3p37V9cLjzNa32Xo",
-        "duration": 254
-      },
-      {
-        "id": "0AcgKF7kbSoCkh3n7vlHwK",
-        "number": 9,
-        "name": "Dirty Diana - 2012 Remaster",
-        "link": "https://open.spotify.com/track/0AcgKF7kbSoCkh3n7vlHwK",
-        "duration": 281
-      },
-      {
-        "id": "5T7ywazdGIydr6JCW6t02j",
-        "number": 10,
-        "name": "Smooth Criminal - 2012 Remaster",
-        "link": "https://open.spotify.com/track/5T7ywazdGIydr6JCW6t02j",
+        "name": "Crystal Sages",
+        "link": "https://open.spotify.com/track/25bVoTOlaW0q1PeOD0AYiL",
         "duration": 258
       },
       {
-        "id": "6pJSulm9EBmsYGnp3uaEFl",
+        "id": "3mgqk2Hh1SaBANs0bYDxra",
+        "number": 9,
+        "name": "Deacons of the Deep",
+        "link": "https://open.spotify.com/track/3mgqk2Hh1SaBANs0bYDxra",
+        "duration": 210
+      },
+      {
+        "id": "1340EA7DJOKpcOXYCeMF4X",
+        "number": 10,
+        "name": "High Lord Wolnir",
+        "link": "https://open.spotify.com/track/1340EA7DJOKpcOXYCeMF4X",
+        "duration": 282
+      },
+      {
+        "id": "17Hou4GP2uxe48iYX7RaWR",
         "number": 11,
-        "name": "Leave Me Alone - 2012 Remaster",
-        "link": "https://open.spotify.com/track/6pJSulm9EBmsYGnp3uaEFl",
-        "duration": 280
+        "name": "Pontiff Sulyvahn",
+        "link": "https://open.spotify.com/track/17Hou4GP2uxe48iYX7RaWR",
+        "duration": 237
+      },
+      {
+        "id": "0vh67Dc10xtNHMggf0q24s",
+        "number": 12,
+        "name": "Dancer of the Boreal Valley",
+        "link": "https://open.spotify.com/track/0vh67Dc10xtNHMggf0q24s",
+        "duration": 205
+      },
+      {
+        "id": "7qHHmacQY3BnNm5ZYhTTJF",
+        "number": 13,
+        "name": "Dragonslayer Armour",
+        "link": "https://open.spotify.com/track/7qHHmacQY3BnNm5ZYhTTJF",
+        "duration": 261
+      },
+      {
+        "id": "3z3i0ivCCAqzWLQT1pZyrN",
+        "number": 14,
+        "name": "Old Demon King",
+        "link": "https://open.spotify.com/track/3z3i0ivCCAqzWLQT1pZyrN",
+        "duration": 228
+      },
+      {
+        "id": "0eNR5kpvZntGZxEqDG5nN1",
+        "number": 15,
+        "name": "Oceiros, the Consumed King",
+        "link": "https://open.spotify.com/track/0eNR5kpvZntGZxEqDG5nN1",
+        "duration": 232
+      },
+      {
+        "id": "5HuKUjUuykwwkwZnlrWTXz",
+        "number": 16,
+        "name": "Ancient Wyvern",
+        "link": "https://open.spotify.com/track/5HuKUjUuykwwkwZnlrWTXz",
+        "duration": 176
+      },
+      {
+        "id": "5gN5BP5P8veXLFbZ7kDWDJ",
+        "number": 17,
+        "name": "Nameless King",
+        "link": "https://open.spotify.com/track/5gN5BP5P8veXLFbZ7kDWDJ",
+        "duration": 253
+      },
+      {
+        "id": "6Ti3J1L3b3PHkMirNq0dC9",
+        "number": 18,
+        "name": "Abyss Watchers",
+        "link": "https://open.spotify.com/track/6Ti3J1L3b3PHkMirNq0dC9",
+        "duration": 291
+      },
+      {
+        "id": "7niy7FDnc0CsgAMqDUVgv7",
+        "number": 19,
+        "name": "Yhorm the Giant",
+        "link": "https://open.spotify.com/track/7niy7FDnc0CsgAMqDUVgv7",
+        "duration": 246
+      },
+      {
+        "id": "5w7mT3Aqq7f0w3YdbbF675",
+        "number": 20,
+        "name": "Aldritch, Devourer of Gods",
+        "link": "https://open.spotify.com/track/5w7mT3Aqq7f0w3YdbbF675",
+        "duration": 225
+      },
+      {
+        "id": "2KtaQQGIVWr8AkC7XL6Xyy",
+        "number": 21,
+        "name": "Twin Princes",
+        "link": "https://open.spotify.com/track/2KtaQQGIVWr8AkC7XL6Xyy",
+        "duration": 195
+      },
+      {
+        "id": "2tXJ6M02LTmqbHZ7dYU0Yp",
+        "number": 22,
+        "name": "Soul of Cinder",
+        "link": "https://open.spotify.com/track/2tXJ6M02LTmqbHZ7dYU0Yp",
+        "duration": 352
+      },
+      {
+        "id": "1MXLT7lpCQxlJkxAdifUY0",
+        "number": 23,
+        "name": "Secret Betrayal",
+        "link": "https://open.spotify.com/track/1MXLT7lpCQxlJkxAdifUY0",
+        "duration": 169
+      },
+      {
+        "id": "7sh3E3KPEJ2CvLRR8CcxQD",
+        "number": 24,
+        "name": "Sister Friede",
+        "link": "https://open.spotify.com/track/7sh3E3KPEJ2CvLRR8CcxQD",
+        "duration": 269
+      },
+      {
+        "id": "00NhlYNYYVt7CTyqlFtSdH",
+        "number": 25,
+        "name": "Champion's Gravertender",
+        "link": "https://open.spotify.com/track/00NhlYNYYVt7CTyqlFtSdH",
+        "duration": 222
+      },
+      {
+        "id": "6o5Xhk2P5XYuhcLbZyfChU",
+        "number": 26,
+        "name": "The Demon Prince",
+        "link": "https://open.spotify.com/track/6o5Xhk2P5XYuhcLbZyfChU",
+        "duration": 208
+      },
+      {
+        "id": "7ckYPNiXhpcl3d2fDA7wuX",
+        "number": 27,
+        "name": "Halflight, Spear of the Church",
+        "link": "https://open.spotify.com/track/7ckYPNiXhpcl3d2fDA7wuX",
+        "duration": 244
+      },
+      {
+        "id": "0U3ZDc0uLbchrIIVOsPnpY",
+        "number": 28,
+        "name": "Darkeater Midir",
+        "link": "https://open.spotify.com/track/0U3ZDc0uLbchrIIVOsPnpY",
+        "duration": 256
+      },
+      {
+        "id": "74m8PoL6GZulfVzeYS6W0C",
+        "number": 29,
+        "name": "Slave Knight Gael",
+        "link": "https://open.spotify.com/track/74m8PoL6GZulfVzeYS6W0C",
+        "duration": 339
+      },
+      {
+        "id": "1sHlhvVfZoYsHnIAAQn9sm",
+        "number": 30,
+        "name": "For the dark soul",
+        "link": "https://open.spotify.com/track/1sHlhvVfZoYsHnIAAQn9sm",
+        "duration": 113
+      },
+      {
+        "id": "0EeEHBXvC7Hf5hI3ND9R7m",
+        "number": 31,
+        "name": "Epilogue",
+        "link": "https://open.spotify.com/track/0EeEHBXvC7Hf5hI3ND9R7m",
+        "duration": 436
+      },
+      {
+        "id": "5lzSHyp1nAbA1TPrFESj5e",
+        "number": 32,
+        "name": "E3 2015 Debut Trailer",
+        "link": "https://open.spotify.com/track/5lzSHyp1nAbA1TPrFESj5e",
+        "duration": 139
+      }
+    ]
+  },
+  {
+    "id": "72oL3sD7toB7YvInNmrznf",
+    "name": "ELDEN RING ORIGINAL SOUND TRACK",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734cf5f1a605482e2aa10b5740",
+    "author": "FROMSOFTWARE SOUND TEAM",
+    "year": "2022",
+    "musics": [
+      {
+        "id": "19YEN3yo79SF9wO4v65XA5",
+        "number": 1,
+        "name": "Elden Ring",
+        "link": "https://open.spotify.com/track/19YEN3yo79SF9wO4v65XA5",
+        "duration": 98
+      },
+      {
+        "id": "43kBWUUqMdbtwHjQN0cnWG",
+        "number": 2,
+        "name": "Opening",
+        "link": "https://open.spotify.com/track/43kBWUUqMdbtwHjQN0cnWG",
+        "duration": 190
+      },
+      {
+        "id": "3xTYqLNRe5u6JUs5q20Dnl",
+        "number": 3,
+        "name": "Character Creation",
+        "link": "https://open.spotify.com/track/3xTYqLNRe5u6JUs5q20Dnl",
+        "duration": 165
+      },
+      {
+        "id": "2pXkvsziEq78MWYCDBVCot",
+        "number": 4,
+        "name": "Limgrave",
+        "link": "https://open.spotify.com/track/2pXkvsziEq78MWYCDBVCot",
+        "duration": 191
+      },
+      {
+        "id": "3QAzRUoXIOTJSD9zMFPSud",
+        "number": 5,
+        "name": "Caves",
+        "link": "https://open.spotify.com/track/3QAzRUoXIOTJSD9zMFPSud",
+        "duration": 171
+      },
+      {
+        "id": "0YBIo0R8h4oudu2HI9jptS",
+        "number": 6,
+        "name": "Tunnels",
+        "link": "https://open.spotify.com/track/0YBIo0R8h4oudu2HI9jptS",
+        "duration": 139
+      },
+      {
+        "id": "7BJ11KJxVb0RbmR5q8w3cj",
+        "number": 7,
+        "name": "Stormveil Castle",
+        "link": "https://open.spotify.com/track/7BJ11KJxVb0RbmR5q8w3cj",
+        "duration": 132
+      },
+      {
+        "id": "1kys9Iw19srN8xllOlXOxB",
+        "number": 8,
+        "name": "Roundtable Hold",
+        "link": "https://open.spotify.com/track/1kys9Iw19srN8xllOlXOxB",
+        "duration": 141
+      },
+      {
+        "id": "2facuV0NuPn9DozTZ2toCc",
+        "number": 9,
+        "name": "Liurnia of the Lakes",
+        "link": "https://open.spotify.com/track/2facuV0NuPn9DozTZ2toCc",
+        "duration": 181
+      },
+      {
+        "id": "6bshyyOmrMKhEaQAjHcjaO",
+        "number": 10,
+        "name": "Great Underground Rivers",
+        "link": "https://open.spotify.com/track/6bshyyOmrMKhEaQAjHcjaO",
+        "duration": 160
+      },
+      {
+        "id": "2B9Dy44Jby3RTj3xbNTYsM",
+        "number": 11,
+        "name": "Eternal City",
+        "link": "https://open.spotify.com/track/2B9Dy44Jby3RTj3xbNTYsM",
+        "duration": 209
+      },
+      {
+        "id": "0EbOkGJCMniff6sj9Kej8U",
+        "number": 12,
+        "name": "Academy of Raya Lucaria",
+        "link": "https://open.spotify.com/track/0EbOkGJCMniff6sj9Kej8U",
+        "duration": 118
+      },
+      {
+        "id": "6Srmdse6rQXe5DicjWWYlc",
+        "number": 13,
+        "name": "Caelid",
+        "link": "https://open.spotify.com/track/6Srmdse6rQXe5DicjWWYlc",
+        "duration": 225
+      },
+      {
+        "id": "7yRkarrVPTNnQOmz7d17UM",
+        "number": 14,
+        "name": "Old Castle",
+        "link": "https://open.spotify.com/track/7yRkarrVPTNnQOmz7d17UM",
+        "duration": 236
+      },
+      {
+        "id": "0gkSRJQcBcZnXfjd4K4UCk",
+        "number": 15,
+        "name": "Altus Plateau",
+        "link": "https://open.spotify.com/track/0gkSRJQcBcZnXfjd4K4UCk",
+        "duration": 178
+      },
+      {
+        "id": "3jOjqaqG7Of1gb8eoFjWk5",
+        "number": 16,
+        "name": "Catacombs",
+        "link": "https://open.spotify.com/track/3jOjqaqG7Of1gb8eoFjWk5",
+        "duration": 114
+      },
+      {
+        "id": "0DvzDFgKBzTLtgu0DXsvpb",
+        "number": 17,
+        "name": "Leyndell, Royal Capital",
+        "link": "https://open.spotify.com/track/0DvzDFgKBzTLtgu0DXsvpb",
+        "duration": 197
+      },
+      {
+        "id": "2qjgaKMnMkpMFk0O1hLgck",
+        "number": 18,
+        "name": "Subterranean Shunning-Grounds",
+        "link": "https://open.spotify.com/track/2qjgaKMnMkpMFk0O1hLgck",
+        "duration": 150
+      },
+      {
+        "id": "7wVdshopAy0yVKzleUVxlz",
+        "number": 19,
+        "name": "Mt. Gelmir",
+        "link": "https://open.spotify.com/track/7wVdshopAy0yVKzleUVxlz",
+        "duration": 164
+      },
+      {
+        "id": "1XJHKgMuAByZiHp3dlgvJm",
+        "number": 20,
+        "name": "Volcano Manor",
+        "link": "https://open.spotify.com/track/1XJHKgMuAByZiHp3dlgvJm",
+        "duration": 152
+      },
+      {
+        "id": "3GQ4A3ikMK5OA8L8VIvg4W",
+        "number": 21,
+        "name": "Prison Town",
+        "link": "https://open.spotify.com/track/3GQ4A3ikMK5OA8L8VIvg4W",
+        "duration": 159
+      },
+      {
+        "id": "06Rm2UUMLMOnsiJlPi7MhM",
+        "number": 22,
+        "name": "Mountaintops of the Giants",
+        "link": "https://open.spotify.com/track/06Rm2UUMLMOnsiJlPi7MhM",
+        "duration": 203
+      },
+      {
+        "id": "5VFWk1SHJrSKDCrOckwAwK",
+        "number": 23,
+        "name": "Divine Tower",
+        "link": "https://open.spotify.com/track/5VFWk1SHJrSKDCrOckwAwK",
+        "duration": 174
+      },
+      {
+        "id": "1De6uhn6WxRRiWMOsbOKck",
+        "number": 24,
+        "name": "Crumbling Farum Azula",
+        "link": "https://open.spotify.com/track/1De6uhn6WxRRiWMOsbOKck",
+        "duration": 221
+      },
+      {
+        "id": "3WWi6M66SyBjp3QmXcsfIE",
+        "number": 25,
+        "name": "Consecrated Snowfield",
+        "link": "https://open.spotify.com/track/3WWi6M66SyBjp3QmXcsfIE",
+        "duration": 157
+      },
+      {
+        "id": "0xGIeL5flcvT6esmrjvxhQ",
+        "number": 26,
+        "name": "Miquella's Haligtree",
+        "link": "https://open.spotify.com/track/0xGIeL5flcvT6esmrjvxhQ",
+        "duration": 122
+      },
+      {
+        "id": "4y36EheYizjotQBAHoY0O8",
+        "number": 27,
+        "name": "Elphael",
+        "link": "https://open.spotify.com/track/4y36EheYizjotQBAHoY0O8",
+        "duration": 135
+      },
+      {
+        "id": "0SYOn83bndAZ3HGFJEfJ1b",
+        "number": 28,
+        "name": "Formidable Foe I",
+        "link": "https://open.spotify.com/track/0SYOn83bndAZ3HGFJEfJ1b",
+        "duration": 147
+      },
+      {
+        "id": "5mIUWcLOvd77DwImhYTMaU",
+        "number": 29,
+        "name": "Formidable Foe II",
+        "link": "https://open.spotify.com/track/5mIUWcLOvd77DwImhYTMaU",
+        "duration": 85
+      },
+      {
+        "id": "13tBhnzgn9UhUP5cbHA7Dj",
+        "number": 30,
+        "name": "Invader",
+        "link": "https://open.spotify.com/track/13tBhnzgn9UhUP5cbHA7Dj",
+        "duration": 110
+      },
+      {
+        "id": "0fSm40l1AGcGbYHTyssHKj",
+        "number": 31,
+        "name": "Old Warriors",
+        "link": "https://open.spotify.com/track/0fSm40l1AGcGbYHTyssHKj",
+        "duration": 114
+      },
+      {
+        "id": "09CphaXu6z9MwxAcipeA7C",
+        "number": 32,
+        "name": "Erdtree Knights",
+        "link": "https://open.spotify.com/track/09CphaXu6z9MwxAcipeA7C",
+        "duration": 167
+      },
+      {
+        "id": "3UZDdRMaPcSZ0hLQf1Rcxl",
+        "number": 33,
+        "name": "Fallen Knights",
+        "link": "https://open.spotify.com/track/3UZDdRMaPcSZ0hLQf1Rcxl",
+        "duration": 353
+      },
+      {
+        "id": "2GLm2vMYKJMu5YV57MoDLt",
+        "number": 34,
+        "name": "The Immured",
+        "link": "https://open.spotify.com/track/2GLm2vMYKJMu5YV57MoDLt",
+        "duration": 102
+      },
+      {
+        "id": "6SHHJpYebWrEvybX7xhQLz",
+        "number": 35,
+        "name": "The Accursed",
+        "link": "https://open.spotify.com/track/6SHHJpYebWrEvybX7xhQLz",
+        "duration": 79
+      },
+      {
+        "id": "34RA8VBVehmRcGPsKbDxqp",
+        "number": 36,
+        "name": "Grave Wardens",
+        "link": "https://open.spotify.com/track/34RA8VBVehmRcGPsKbDxqp",
+        "duration": 149
+      },
+      {
+        "id": "0MM5RA4teDEjqDzP37egfV",
+        "number": 37,
+        "name": "Death's Kindred",
+        "link": "https://open.spotify.com/track/0MM5RA4teDEjqDzP37egfV",
+        "duration": 113
+      },
+      {
+        "id": "1n6w6iiGgekKgXtT1WY6xU",
+        "number": 38,
+        "name": "Dragon",
+        "link": "https://open.spotify.com/track/1n6w6iiGgekKgXtT1WY6xU",
+        "duration": 92
+      },
+      {
+        "id": "2OZCwSwUb4q5rtZxm3EsmW",
+        "number": 39,
+        "name": "Fallingstar Beast",
+        "link": "https://open.spotify.com/track/2OZCwSwUb4q5rtZxm3EsmW",
+        "duration": 112
+      },
+      {
+        "id": "21xxV3Y2LFmmdaB5JglOt3",
+        "number": 40,
+        "name": "Red Wolf of Radagon",
+        "link": "https://open.spotify.com/track/21xxV3Y2LFmmdaB5JglOt3",
+        "duration": 76
+      },
+      {
+        "id": "5DjJMscTEoSfsH84uOccbx",
+        "number": 41,
+        "name": "Erdtree Avatar",
+        "link": "https://open.spotify.com/track/5DjJMscTEoSfsH84uOccbx",
+        "duration": 186
+      },
+      {
+        "id": "3ZyQOALjoJd5Hoer9N1JmJ",
+        "number": 42,
+        "name": "Godskin Apostles",
+        "link": "https://open.spotify.com/track/3ZyQOALjoJd5Hoer9N1JmJ",
+        "duration": 274
+      },
+      {
+        "id": "5hH0VKLCNdK2GdW7YOYPnr",
+        "number": 43,
+        "name": "Black Knives",
+        "link": "https://open.spotify.com/track/5hH0VKLCNdK2GdW7YOYPnr",
+        "duration": 109
+      },
+      {
+        "id": "3BNNqWqba3UPxsWfdaYDIE",
+        "number": 44,
+        "name": "Margit, the Fell Omen",
+        "link": "https://open.spotify.com/track/3BNNqWqba3UPxsWfdaYDIE",
+        "duration": 223
+      },
+      {
+        "id": "7lf2W8RfNgY71MyDEikOOv",
+        "number": 45,
+        "name": "Omen Illusion",
+        "link": "https://open.spotify.com/track/7lf2W8RfNgY71MyDEikOOv",
+        "duration": 112
+      },
+      {
+        "id": "3JGfOe4mHp9I1qhWBeaXPT",
+        "number": 46,
+        "name": "Lord's Apparition",
+        "link": "https://open.spotify.com/track/3JGfOe4mHp9I1qhWBeaXPT",
+        "duration": 109
+      },
+      {
+        "id": "0X2J2zWJa3dHVMmGq1xM6V",
+        "number": 47,
+        "name": "Regal Ancestor Spirit",
+        "link": "https://open.spotify.com/track/0X2J2zWJa3dHVMmGq1xM6V",
+        "duration": 249
+      },
+      {
+        "id": "491xCnsw7XGzUjdJMqG7gZ",
+        "number": 48,
+        "name": "Astel, Naturalborn of the Void",
+        "link": "https://open.spotify.com/track/491xCnsw7XGzUjdJMqG7gZ",
+        "duration": 265
+      },
+      {
+        "id": "2mdyD43Q5wh0ePRLszZPwC",
+        "number": 49,
+        "name": "Ancient Dragon Lansseax",
+        "link": "https://open.spotify.com/track/2mdyD43Q5wh0ePRLszZPwC",
+        "duration": 124
+      },
+      {
+        "id": "464NDoR21mpkaAZHedHyD7",
+        "number": 50,
+        "name": "Lichdragon Fortissax",
+        "link": "https://open.spotify.com/track/464NDoR21mpkaAZHedHyD7",
+        "duration": 328
+      }
+    ]
+  },
+  {
+    "id": "0RHX9XECH8IVI3LNgWDpmQ",
+    "name": "A Rush of Blood to the Head",
+    "image": "https://i.scdn.co/image/ab67616d0000b273de09e02aa7febf30b7c02d82",
+    "author": "Coldplay",
+    "year": "2002",
+    "musics": [
+      {
+        "id": "0u35Dpz37TY2M2j20RUdMf",
+        "number": 1,
+        "name": "Politik",
+        "link": "https://open.spotify.com/track/0u35Dpz37TY2M2j20RUdMf",
+        "duration": 319
+      },
+      {
+        "id": "2nvC4i2aMo4CzRjRflysah",
+        "number": 2,
+        "name": "In My Place",
+        "link": "https://open.spotify.com/track/2nvC4i2aMo4CzRjRflysah",
+        "duration": 227
+      },
+      {
+        "id": "4hf0hL4kWyjWztZzVsM39V",
+        "number": 3,
+        "name": "God Put a Smile upon Your Face",
+        "link": "https://open.spotify.com/track/4hf0hL4kWyjWztZzVsM39V",
+        "duration": 297
+      },
+      {
+        "id": "75JFxkI2RXiU7L9VXzMkle",
+        "number": 4,
+        "name": "The Scientist",
+        "link": "https://open.spotify.com/track/75JFxkI2RXiU7L9VXzMkle",
+        "duration": 310
+      },
+      {
+        "id": "0BCPKOYdS2jbQ8iyB56Zns",
+        "number": 5,
+        "name": "Clocks",
+        "link": "https://open.spotify.com/track/0BCPKOYdS2jbQ8iyB56Zns",
+        "duration": 308
+      },
+      {
+        "id": "4fP4xTSBli3tKck172LEZ4",
+        "number": 6,
+        "name": "Daylight",
+        "link": "https://open.spotify.com/track/4fP4xTSBli3tKck172LEZ4",
+        "duration": 328
+      },
+      {
+        "id": "3ou9rSNUQnE7XYmJkUUIOc",
+        "number": 7,
+        "name": "Green Eyes",
+        "link": "https://open.spotify.com/track/3ou9rSNUQnE7XYmJkUUIOc",
+        "duration": 223
+      },
+      {
+        "id": "4bPkBHKLKd9WHizsvM2zV3",
+        "number": 8,
+        "name": "Warning Sign",
+        "link": "https://open.spotify.com/track/4bPkBHKLKd9WHizsvM2zV3",
+        "duration": 331
+      },
+      {
+        "id": "7KolrFGhfDi1JTSgQBT5sI",
+        "number": 9,
+        "name": "A Whisper",
+        "link": "https://open.spotify.com/track/7KolrFGhfDi1JTSgQBT5sI",
+        "duration": 238
+      },
+      {
+        "id": "4JJ5zGKnb1IpERyBrfmb1y",
+        "number": 10,
+        "name": "A Rush of Blood to the Head",
+        "link": "https://open.spotify.com/track/4JJ5zGKnb1IpERyBrfmb1y",
+        "duration": 351
+      },
+      {
+        "id": "2uQ4px5SPONsgcUpulywIQ",
+        "number": 11,
+        "name": "Amsterdam",
+        "link": "https://open.spotify.com/track/2uQ4px5SPONsgcUpulywIQ",
+        "duration": 319
+      }
+    ]
+  },
+  {
+    "id": "3jQ7eqotwovipeZ3j3rMqu",
+    "name": "Cuphead (Original Soundtrack)",
+    "image": "https://i.scdn.co/image/ab67616d0000b27305ded1194cfefa65af276a4e",
+    "author": "Kristofer Maddigan",
+    "year": "2017",
+    "musics": [
+      {
+        "id": "6BGH20po77dhCFUFezieIG",
+        "number": 1,
+        "name": "Don't Deal with the Devil",
+        "link": "https://open.spotify.com/track/6BGH20po77dhCFUFezieIG",
+        "duration": 43
+      },
+      {
+        "id": "55lscnv23cvuEyaf0xSxed",
+        "number": 2,
+        "name": "Don't Deal with the Devil (Instrumental)",
+        "link": "https://open.spotify.com/track/55lscnv23cvuEyaf0xSxed",
+        "duration": 65
+      },
+      {
+        "id": "2ufr0Gs4OWL1Uo22EsJDSx",
+        "number": 3,
+        "name": "Introduction",
+        "link": "https://open.spotify.com/track/2ufr0Gs4OWL1Uo22EsJDSx",
+        "duration": 212
+      },
+      {
+        "id": "3b283GyxalGqsqCqLNw8xR",
+        "number": 4,
+        "name": "Tutorial",
+        "link": "https://open.spotify.com/track/3b283GyxalGqsqCqLNw8xR",
+        "duration": 101
+      },
+      {
+        "id": "6ktFdl272RBi7uk8FTPeuQ",
+        "number": 5,
+        "name": "Elder Kettle",
+        "link": "https://open.spotify.com/track/6ktFdl272RBi7uk8FTPeuQ",
+        "duration": 315
+      },
+      {
+        "id": "6UehmCQPTPaZk5R0VXQ5eE",
+        "number": 6,
+        "name": "Inkwell Isle One",
+        "link": "https://open.spotify.com/track/6UehmCQPTPaZk5R0VXQ5eE",
+        "duration": 196
+      },
+      {
+        "id": "0YBHCNZipJmhgykFFInajM",
+        "number": 7,
+        "name": "Botanic Panic",
+        "link": "https://open.spotify.com/track/0YBHCNZipJmhgykFFInajM",
+        "duration": 242
+      },
+      {
+        "id": "3HpvQ7aZ5338LLRxPjUawN",
+        "number": 8,
+        "name": "Die House",
+        "link": "https://open.spotify.com/track/3HpvQ7aZ5338LLRxPjUawN",
+        "duration": 97
+      },
+      {
+        "id": "6oNYc9y8DfgEDh4HzPupAS",
+        "number": 9,
+        "name": "Elder Kettle (Piano)",
+        "link": "https://open.spotify.com/track/6oNYc9y8DfgEDh4HzPupAS",
+        "duration": 312
+      },
+      {
+        "id": "3cShnBQsJ2zLR6iya0V3z1",
+        "number": 10,
+        "name": "Threatenin' Zeppelin",
+        "link": "https://open.spotify.com/track/3cShnBQsJ2zLR6iya0V3z1",
+        "duration": 208
+      },
+      {
+        "id": "7D4cP3Hn1VepH9ZpcP0t8R",
+        "number": 11,
+        "name": "Treetop Trouble",
+        "link": "https://open.spotify.com/track/7D4cP3Hn1VepH9ZpcP0t8R",
+        "duration": 174
+      },
+      {
+        "id": "0dvxG9bYKI4ZUCYwcF3c5N",
+        "number": 12,
+        "name": "Ruse of an Ooze",
+        "link": "https://open.spotify.com/track/0dvxG9bYKI4ZUCYwcF3c5N",
+        "duration": 266
+      },
+      {
+        "id": "3zD0YE28NZ9qTHvfVl6imU",
+        "number": 13,
+        "name": "Floral Fury",
+        "link": "https://open.spotify.com/track/3zD0YE28NZ9qTHvfVl6imU",
+        "duration": 225
+      },
+      {
+        "id": "4mSI8DMnuj3JKXJwhaN9DM",
+        "number": 14,
+        "name": "Inkwell Isle One (Piano)",
+        "link": "https://open.spotify.com/track/4mSI8DMnuj3JKXJwhaN9DM",
+        "duration": 188
+      },
+      {
+        "id": "7uVpjihhrP2plvxnSzP6JY",
+        "number": 15,
+        "name": "Clip Joint Calamity",
+        "link": "https://open.spotify.com/track/7uVpjihhrP2plvxnSzP6JY",
+        "duration": 235
+      },
+      {
+        "id": "70THn7YYfyk1U4zozH3bUy",
+        "number": 16,
+        "name": "Forest Follies",
+        "link": "https://open.spotify.com/track/70THn7YYfyk1U4zozH3bUy",
+        "duration": 167
+      },
+      {
+        "id": "2ZWRAljvtZIirVQWvcBGkD",
+        "number": 17,
+        "name": "Inkwell Isle Two",
+        "link": "https://open.spotify.com/track/2ZWRAljvtZIirVQWvcBGkD",
+        "duration": 169
+      },
+      {
+        "id": "7eVPSl96DJOMSc9rIBn6ft",
+        "number": 18,
+        "name": "Sugarland Shimmy",
+        "link": "https://open.spotify.com/track/7eVPSl96DJOMSc9rIBn6ft",
+        "duration": 222
+      },
+      {
+        "id": "4fxY3i5FNyP3LUzixUS7CD",
+        "number": 19,
+        "name": "Aviary Action",
+        "link": "https://open.spotify.com/track/4fxY3i5FNyP3LUzixUS7CD",
+        "duration": 244
+      },
+      {
+        "id": "7IcqrOolPAgqxcK55hvqZk",
+        "number": 20,
+        "name": "Inkwell Isle Two (Piano)",
+        "link": "https://open.spotify.com/track/7IcqrOolPAgqxcK55hvqZk",
+        "duration": 169
+      },
+      {
+        "id": "5AMlkhfcb7TEVghsY4ymdD",
+        "number": 21,
+        "name": "Carnival Kerfuffle",
+        "link": "https://open.spotify.com/track/5AMlkhfcb7TEVghsY4ymdD",
+        "duration": 241
+      },
+      {
+        "id": "02h2lqTc872LnYQ7TOFMmF",
+        "number": 22,
+        "name": "Fiery Frolic",
+        "link": "https://open.spotify.com/track/02h2lqTc872LnYQ7TOFMmF",
+        "duration": 218
+      },
+      {
+        "id": "7sJxeev8KjB8HXjA4pxy3E",
+        "number": 23,
+        "name": "Funfair Fever",
+        "link": "https://open.spotify.com/track/7sJxeev8KjB8HXjA4pxy3E",
+        "duration": 140
+      },
+      {
+        "id": "1MpjMyBxY45fY5mUaqrdxj",
+        "number": 24,
+        "name": "The Mausoleum",
+        "link": "https://open.spotify.com/track/1MpjMyBxY45fY5mUaqrdxj",
+        "duration": 84
+      },
+      {
+        "id": "4TvuAd18ViTQJ19QAbezDT",
+        "number": 25,
+        "name": "Legendary Ghost",
+        "link": "https://open.spotify.com/track/4TvuAd18ViTQJ19QAbezDT",
+        "duration": 105
+      },
+      {
+        "id": "0MX6VvRcqrvJXRLzfZUOmk",
+        "number": 26,
+        "name": "Pyramid Peril",
+        "link": "https://open.spotify.com/track/0MX6VvRcqrvJXRLzfZUOmk",
+        "duration": 340
+      },
+      {
+        "id": "4ZaUqU13ynXcIkfoznfU3n",
+        "number": 27,
+        "name": "Victory Tune",
+        "link": "https://open.spotify.com/track/4ZaUqU13ynXcIkfoznfU3n",
+        "duration": 101
+      },
+      {
+        "id": "2AvPs6sbcDQQgXhRgmUufp",
+        "number": 28,
+        "name": "Hurry Up",
+        "link": "https://open.spotify.com/track/2AvPs6sbcDQQgXhRgmUufp",
+        "duration": 36
+      },
+      {
+        "id": "0keNORyUWidCWh1I0gli6D",
+        "number": 29,
+        "name": "A Quick Break",
+        "link": "https://open.spotify.com/track/0keNORyUWidCWh1I0gli6D",
+        "duration": 72
+      },
+      {
+        "id": "3xy2j2CjDQph91gUK71oHz",
+        "number": 1,
+        "name": "Coin-Op Bop",
+        "link": "https://open.spotify.com/track/3xy2j2CjDQph91gUK71oHz",
+        "duration": 296
+      },
+      {
+        "id": "33bdiZAAiUu9MkwELMztV2",
+        "number": 2,
+        "name": "High Score",
+        "link": "https://open.spotify.com/track/33bdiZAAiUu9MkwELMztV2",
+        "duration": 66
+      },
+      {
+        "id": "18glzC2ulLjpZAGRMt4eoA",
+        "number": 3,
+        "name": "Funhouse Frazzle",
+        "link": "https://open.spotify.com/track/18glzC2ulLjpZAGRMt4eoA",
+        "duration": 190
+      },
+      {
+        "id": "7MToKxeepujquHIVLya6jt",
+        "number": 4,
+        "name": "Inkwell Isle Three",
+        "link": "https://open.spotify.com/track/7MToKxeepujquHIVLya6jt",
+        "duration": 174
+      },
+      {
+        "id": "0nKZsdHAqChEd0jwynrfoW",
+        "number": 5,
+        "name": "Honeycomb Herald",
+        "link": "https://open.spotify.com/track/0nKZsdHAqChEd0jwynrfoW",
+        "duration": 278
+      },
+      {
+        "id": "5vUWXPgS8kCAOP4tZ0o6vI",
+        "number": 6,
+        "name": "Porkrind's Shop",
+        "link": "https://open.spotify.com/track/5vUWXPgS8kCAOP4tZ0o6vI",
+        "duration": 136
+      },
+      {
+        "id": "4w4qrHEm4Olj1K070PKgvZ",
+        "number": 7,
+        "name": "Shootin' 'n' Lootin'",
+        "link": "https://open.spotify.com/track/4w4qrHEm4Olj1K070PKgvZ",
+        "duration": 227
+      },
+      {
+        "id": "7Hd76FhngTrK6KK8TNVnFb",
+        "number": 8,
+        "name": "Dramatic Fanatic",
+        "link": "https://open.spotify.com/track/7Hd76FhngTrK6KK8TNVnFb",
+        "duration": 298
+      },
+      {
+        "id": "1RVsX3VWLxQEbzMGk2ZNyE",
+        "number": 9,
+        "name": "Perilous Piers",
+        "link": "https://open.spotify.com/track/1RVsX3VWLxQEbzMGk2ZNyE",
+        "duration": 129
+      },
+      {
+        "id": "0HBseo5ADohKTaH6JK3rn1",
+        "number": 10,
+        "name": "Murine Corps",
+        "link": "https://open.spotify.com/track/0HBseo5ADohKTaH6JK3rn1",
+        "duration": 250
+      },
+      {
+        "id": "3LbC5JsZ1Sa4HGfhMFSS3o",
+        "number": 11,
+        "name": "Junkyard Jive",
+        "link": "https://open.spotify.com/track/3LbC5JsZ1Sa4HGfhMFSS3o",
+        "duration": 265
+      },
+      {
+        "id": "7yHJxwR8NEZZzjcTdPWq5e",
+        "number": 12,
+        "name": "Rugged Ridge",
+        "link": "https://open.spotify.com/track/7yHJxwR8NEZZzjcTdPWq5e",
+        "duration": 201
+      },
+      {
+        "id": "7MOLuGHl3msefPDQF8MeKG",
+        "number": 13,
+        "name": "High Seas Hi-Jinx",
+        "link": "https://open.spotify.com/track/7MOLuGHl3msefPDQF8MeKG",
+        "duration": 203
+      },
+      {
+        "id": "0v3uNqdn2dHuSCQLFperyZ",
+        "number": 14,
+        "name": "Railroad Wrath",
+        "link": "https://open.spotify.com/track/0v3uNqdn2dHuSCQLFperyZ",
+        "duration": 255
+      },
+      {
+        "id": "6JLAE1sWylNmvJU7283CGE",
+        "number": 15,
+        "name": "Inkwell Isle Three (Piano)",
+        "link": "https://open.spotify.com/track/6JLAE1sWylNmvJU7283CGE",
+        "duration": 203
+      },
+      {
+        "id": "3Mk62kPEDmcXpEvAM8ng72",
+        "number": 16,
+        "name": "The Airship",
+        "link": "https://open.spotify.com/track/3Mk62kPEDmcXpEvAM8ng72",
+        "duration": 308
+      },
+      {
+        "id": "0lR96n5ReVvMnSpeymAHIh",
+        "number": 17,
+        "name": "All Bets Are Off",
+        "link": "https://open.spotify.com/track/0lR96n5ReVvMnSpeymAHIh",
+        "duration": 97
+      },
+      {
+        "id": "4IIhfvn5exIXltV9sznYtR",
+        "number": 18,
+        "name": "Inkwell Hell",
+        "link": "https://open.spotify.com/track/4IIhfvn5exIXltV9sznYtR",
+        "duration": 166
+      },
+      {
+        "id": "3Q1ihQlFp9V9VDYxlWb25u",
+        "number": 19,
+        "name": "The King's Court",
+        "link": "https://open.spotify.com/track/3Q1ihQlFp9V9VDYxlWb25u",
+        "duration": 232
+      },
+      {
+        "id": "0wdquw14LO4V24Oi5Fildy",
+        "number": 20,
+        "name": "Inkwell Hell (Piano)",
+        "link": "https://open.spotify.com/track/0wdquw14LO4V24Oi5Fildy",
+        "duration": 164
+      },
+      {
+        "id": "4HSbWc9sk1fi7CbCxjYvda",
+        "number": 21,
+        "name": "Chief Evil Officer",
+        "link": "https://open.spotify.com/track/4HSbWc9sk1fi7CbCxjYvda",
+        "duration": 42
+      }
+    ]
+  },
+  {
+    "id": "3Cqy67s3ZgJXzpTTEOV3EL",
+    "name": "MEU CEMITÉRIO",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d95e05975c47b225e16b0e5d",
+    "author": "Matuê",
+    "year": "2025",
+    "musics": [
+      {
+        "id": "0h9GmCGvM0meVHfF0XrnHJ",
+        "number": 1,
+        "name": "MEU CEMITÉRIO",
+        "link": "https://open.spotify.com/track/0h9GmCGvM0meVHfF0XrnHJ",
+        "duration": 207
       }
     ]
   }

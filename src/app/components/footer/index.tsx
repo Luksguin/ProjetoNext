@@ -6,7 +6,7 @@ import logout from '../../../images/logout.png'
 import { SessionOff } from '@/app/auth'
 import { useRouter } from 'next/navigation'
 
-export default function HandleLogout() {
+export default function Footer() {
   const router = useRouter();
   const fazerLogout = async () => {
     await SessionOff();
