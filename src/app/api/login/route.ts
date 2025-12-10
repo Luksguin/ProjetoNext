@@ -3,7 +3,6 @@ import db from "../../../../lib/db";
 import { createSessionToken } from "../../auth"; 
 
 export async function POST(request) {
-  try {
     const { email, password } = await request.json();
 
     const busca = db.prepare("SELECT * FROM users WHERE email = ? AND password = ?");
@@ -22,11 +21,4 @@ export async function POST(request) {
         { status: 401 }
       );
     }
-  } catch (error) {
-    console.error("ERRO NO LOGIN:", error);
-    return NextResponse.json(
-      { message: "Erro interno no servidor." },
-      { status: 500 }
-    );
-  }
 }

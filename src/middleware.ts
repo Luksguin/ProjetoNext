@@ -18,18 +18,13 @@ export async function middleware(request: NextRequest) {
 
   // analiar token
   let sessionIsValid = false;
+
+  //se tiver sessão de cookie
   if (sessionCookie) {
-    try {
-      const tokenEnv = process.env.TOKEN;
-      // Pega a chave secreta do arquivo .env
-      const secret = new TextEncoder().encode(process.env.TOKEN);
-      await jose.jwtVerify(sessionCookie, secret);
-      sessionIsValid = true;
-    } catch (error) {
-      // Token inválido ou expirado
-      sessionIsValid = false;
-    }
-  } else {
+    //analisa o jwt que esta dentro desse cookie
+    const secret = new TextEncoder().encode(process.env.TOKEN);
+    await jose.jwtVerify(sessionCookie, secret);
+    sessionIsValid = true;
   }
 
   //caso nao esteja logado e queira pegar um rota privada

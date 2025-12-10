@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import db from "../../../../lib/db"; //importar o banco de dados
 
 export async function POST(req: Request) {
-  try {
     // Pegar os dados do front
     const dados = await req.json();
     const { email, password } = dados;
@@ -31,11 +30,4 @@ export async function POST(req: Request) {
       { status: 201 }
     );
 
-  } catch (error) {
-    console.error("Erro no cadastro:", error);
-    return NextResponse.json(
-      { message: "Erro interno ao salvar no banco." },
-      { status: 500 }
-    );
-  }
 }
