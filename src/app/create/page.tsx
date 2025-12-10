@@ -34,7 +34,6 @@ export default function Create() {
 
   //pra mandar pra salvar
   const onSubmit = async (data: FormData) => {
-    try {
       const response = await fetch("/api/create", {
         method: "POST",
         headers: {
@@ -53,9 +52,6 @@ export default function Create() {
         const errorData = await response.json();
         alert(errorData.message);
       }
-    } catch (error) {
-      console.error("Erro ao cadastrar:", error);
-    }
   };
 
   return (

@@ -1,6 +1,7 @@
 import style from './index.module.css'
 import Image from 'next/image'
 import logout from '../../../../images/logout.png'
+import Link from 'next/link'
 
 export default function index() {
   return (
@@ -13,7 +14,7 @@ export default function index() {
 
       <p>Obrigado!</p>
 
-      <button><Image src={logout} alt='Sair'/></button>
+      <Link href={"/login"}><button><Image src={logout} alt='Sair'/></button></Link>
     </div>
   )
 }
