@@ -10,9 +10,9 @@ npm i
 ```
 
 Logo ápos temos que criar um arquivo .env: <br>
-TOKEN="AlgumValorDefinidoPeloUsuario"
-SPOTIFY_CLIENT_ID=db9321717f024b27828ff12fc7081def
-SPOTIFY_CLIENT_SECRET=c8ce8ed0e6ed46fd83baece41d4c9297
+TOKEN="AlgumValorDefinidoPeloUsuario" <br>
+SPOTIFY_CLIENT_ID=db9321717f024b27828ff12fc7081def <br>
+SPOTIFY_CLIENT_SECRET=c8ce8ed0e6ed46fd83baece41d4c9297 <br>
 
 
 Em seguida, vamos rodar o projeto
@@ -26,7 +26,7 @@ pnpm dev
 bun dev
 ```
 
-Para a realização do projeto foi utilizado NEXTjs, tanto no Frontend (baseado em React ) quando no Backend, na qual apresenta as seguintes funcionalidades:
+Para a realização do projeto foi utilizado NEXTjs, tanto no Frontend (baseado em React) quando no Backend, na qual apresenta as seguintes funcionalidades:
 1. Create/Login de usuário para validação da entrada (via JWT), criptografia de token, hospedagem em cookie, armazenamento de cadastro e validações de formulários
 2. Rota Privada, na qual precisa-se de email e senha validas(ou token válido) para o acesso da mesma
 3. CRUD de álbuns e música
