@@ -67,8 +67,8 @@ export default function CardButtons({ id, estadoAtual }: TypeButtons) {
 
 function AddMusicButton({ id, estaAdicionando, inversor }: TypeAddMusic) {
     async function concluir(form: FormData) {
-        await addMusica(id, form)
-        inversor()
+        await addMusica(id, form) // Função que adiciona músicas de fato;
+        inversor() // Vai no pai e chama a função que gerencia o estado atual;
     }
 
     return (

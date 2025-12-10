@@ -4,7 +4,7 @@ import play from '../../../../images/play.png'
 import remove from '../../../../images/remove.png'
 import style from './music.module.css'
 
-export type TiposMusic = {
+export type TypeMusic = {
     id: string
     idAlbum: string
     number: number
@@ -19,7 +19,7 @@ type TypeRemove = {
     idMusica: string;
 }
 
-export default function Music({ id, idAlbum, number, name, link, author, duration }: TiposMusic) {
+export default function Music({ id, idAlbum, number, name, link, author, duration }: TypeMusic) {
     return (
         <div className={style.music}>
             <h3>{number}</h3>

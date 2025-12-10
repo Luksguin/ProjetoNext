@@ -16,7 +16,7 @@ type TiposAlbum = {
 }
 
 export default function Card({ id, name, image, author, year, musics }: TiposAlbum) {
-    const [editando, setEditando] = useState(false)
+    const [expandido, setExpandido] = useState(false)
 
     return (
         <div className={style.card}>
@@ -47,9 +47,9 @@ export default function Card({ id, name, image, author, year, musics }: TiposAlb
 
             <hr />
 
-            <div className={`${editando ? style.formsEditing : style.buttonsDefault}`}> {/* Altera o tamanho da div; */}
+            <div className={`${expandido ? style.formsExpandido : style.buttonsDefault}`}> {/* Altera o tamanho da div; */}
                 {/* Passa o id do álbum para conseguir trabalhar com ele e recebe o estado de edição atual através da função estadoAtual; */}
-                <CardButtons id={id} estadoAtual={(estado) => setEditando(estado)} />
+                <CardButtons id={id} estadoAtual={(estado) => setExpandido(estado)} />
             </div>
         </div>
     )

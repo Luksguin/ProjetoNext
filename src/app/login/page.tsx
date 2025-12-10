@@ -26,7 +26,7 @@ export default function Login() {
   };
 
   return (
-    <div className="bg-black w-screen h-screen flex items-center justify-center text-white text-4xl">
+    <div className="w-screen h-screen flex items-center justify-center text-white text-4xl">
       <div className="border-2 border-white w-[100vh] h-auto p-10 rounded-4xl flex items-center flex-col gap-5">
         {/* <img
           src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_Green.png"
